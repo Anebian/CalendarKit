@@ -8,6 +8,7 @@ public protocol EventDescriptor: AnyObject {
     var attributedText: NSAttributedString? {get}
     var lineBreakMode: NSLineBreakMode? {get}
     var font : UIFont {get}
+    var userInfo: Any? {get}
     var color: UIColor {get}
     var textColor: UIColor {get}
     var backgroundColor: UIColor {get}
